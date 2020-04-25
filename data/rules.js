@@ -1,0 +1,18 @@
+#!/usr/bin/env node
+
+module.exports = exports = 'Welcome in **codenames**! \n Rules: please form 2 teams (one red, one blue) '
+  + 'with at least in each team, one person who makes guess and another who guesses. \n'
+  + 'You will have in common, a game board with 25 unique words, and a unique secret card'
+  + 'allowing to know which words are to be guessed by his team. \n'
+  + 'Only people guessing can read this card.\n'
+  + 'The goal of the game is to find all the words of your team first (9 for red, 8 for blue).\n'
+  + 'The people guessing give ONE and ONE single clue word making guess one or more words on the'
+  + 'board. They announce the number of words they want to guess.\n'
+  + 'For those who guess, Be careful! a black word is on the board, if your team designates it, it is GameOver.\n'
+  + 'White words are neutral words, if your team designates them it automatically ends your turn.\n'
+  + 'If your team has guessed all the words of the round, they can propose one more (without additional clue).\n\n'
+  + 'Shortcuts:\n'
+  + 'To start the game: !codenames\n'
+  + '** To submit a word on the board: begin your answer with !! and then write the word (exactly) as on the board '
+  + 'then send. ** Example: !!word\n'
+  + 'Good game!\n'

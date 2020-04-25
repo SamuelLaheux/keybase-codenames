@@ -1,0 +1,22 @@
+{
+  "name": "keybase-codenames",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config -w index.js",
+    "start": "node -r dotenv/config index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "keybase-bot": "^3.0.2",
+    "repeat-string": "^1.6.1",
+    "string-width": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
