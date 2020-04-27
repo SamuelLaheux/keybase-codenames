@@ -28,12 +28,12 @@ async function main() {
           body: rules,
         })
 
-        let gameBoardTable = stringTable(game.gameBoard, size)
+        let gameBoardTable = '```\n' + stringTable(game.gameBoard, size) + '\n```'
         await bot.chat.send(message.conversationId, {
-          body: '```\n' + gameBoardTable + '\n```',
+          body: gameBoardTable,
         })
 
-        let colorTable = `||\n` + stringTable(game.wordColor, size) + `\n||`
+        let colorTable = stringTable(game.wordColor, size)
         await bot.chat.send(message.conversationId, {
           body: colorTable,
         })
